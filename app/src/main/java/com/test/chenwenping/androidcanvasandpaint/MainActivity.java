@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
-        imageView.setBackground();
+      //  imageView.setBackground();
 
-        CanvasBitmap.CreateCricleImage("", 10);
+      //  CanvasBitmap.CreateCricleImage("", 10);
 
     }
 }
